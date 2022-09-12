@@ -1,6 +1,68 @@
 # turbo-broccoli
 👀
 
+# RECREER ANGULAR AFIN DE MIEUX LE COMPRENDRE (MODULE #0 - GRATUIT)
+
+# INTRODUCTION
+
+0. Introduction (à qui s'adresse le cours et pourquoi re-créer un framework à partir de zéro)
+1. Ce que nous allons voir dans ce cours
+2. Les outils nécessaires (VSCode + Node + NPM)
+
+# EMBRAYON DE NOTRE FRAMEWORK
+
+0. Mise en place du projet
+1. Installation de TypeScript 
+2. Installation de Vite
+3. La notion de Directive (théorie)
+4. Notre première Directive (PhoneNumberDirective)
+5. Le sélecteur CSS d'attribut
+6. Une deuxième Directive (CreditCardDirective)
+7. Entracte théorique : les outils, et le framework
+8. Embarquer le sélecteur dans la Directive
+9. Récupérer des strings dans les attributs
+10. La notion de service
+11. Centraliser la logique dans un service
+12. Le problème des instances (dans le handler + dans le constructor)
+13. Instancier dans le Framework (injection de dépendance)
+14. Le problème de l'injection "débile"
+15. Exemple avec le service CardVerifier
+16. Analyser les constructeurs pour rendre le framework plus intelligent
+17. Le problème avec l'instanciation dès le départ
+18. Providers : construire un service à la demande
+19. Réutiliser un service déjà construit
+20. Refactoring du Framework
+21. Entracte et résumé
+
+# TYPESCRIPT, DX ET DECLARATIF
+
+0. Rappel : impératif / déclaratif
+1. Utiliser TS pour améliorer la DX
+2. Créer un décorateur @Directive
+3. Créer un décorateur @Input
+4. Créer un décorateur @HostListener
+5. Créer un décorateur @HostBinding
+6. Détection du changement
+7. Zone.js et ses avantages
+8. Simplifier le code grâce à @HostBinding
+9. Atteindre des propriétés imbriquées (via lodash)
+10. Exemple : la ColorSwitcherDirective
+11. Refactoring : cacher la Zone dans le Framework
+
+# LA NOTION DE COMPOSANTS
+
+0. La UserProfileDirective
+1. Créer un décorateur spécifique @Component
+2. Interpolation : afficher des variables
+3. EventBinding : écouter les événements du DOM
+4. Détection du changement dans le Composant
+
+# CONCLUSION ET REMERCIEMENTS
+
+=================================================
+=================================================
+
+
 # INTRODUCTION A ANGULAR (MODULE #1)
 
 # INTRODUCTION
@@ -11,10 +73,6 @@
 3. Les outils nécessaires
 4. Tirer profit au mieux de cette formation
 5. Notions à connaître avant de se lancer (typescript, programmation orientée objets)
-
-# RECREER ANGULAR AFIN DE MIEUX LE COMPRENDRE
-
-...
 
 # ENVIRONNEMENT DE TRAVAIL
 
