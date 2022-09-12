@@ -22,18 +22,24 @@
 8. Refactoring avec Modules JS
 9. Embarquer le sélecteur dans la Directive
 10. Récupérer des strings dans les attributs
-11. La notion de service
-12. Centraliser la logique dans un service
-13. Le problème des instances (dans le handler + dans le constructor)
-14. Instancier dans le Framework (injection de dépendance)
-15. Le problème de l'injection "débile"
-16. Exemple avec le service CardVerifier
-17. Analyser les constructeurs pour rendre le framework plus intelligent
-18. Le problème avec l'instanciation dès le départ
-19. Providers : construire un service à la demande
-20. Réutiliser un service déjà construit
-21. Refactoring du Framework
-22. Entracte et résumé
+
+# INJECTION DE DEPENDANCES
+1. La notion de service
+2. Centraliser la logique dans un service
+3. Le problème des instances (dans le handler + dans le constructor)
+4. Instancier dans le Framework (injection de dépendance)
+5. Le problème de l'injection "débile"
+6. Exemple avec le service CardVerifier
+7. Analyser les constructeurs pour rendre le framework plus intelligent
+8. Comprendre quels sont les paramètres demandés
+9. Construire la liste des services nécessaires
+10. Construire notre directive avec ses services
+11. Le problème avec l'instanciation dès le départ
+12. Providers : construire un service à la demande
+13. Réutiliser un service déjà construit
+14. Permettre de fournir un service au niveau d'une Directive ?
+15. Refactoring du Framework
+16. Entracte et résumé
 
 # TYPESCRIPT, DX ET DECLARATIF
 
@@ -42,21 +48,26 @@
 2. Créer un décorateur @Directive
 3. Créer un décorateur @Input
 4. Créer un décorateur @HostListener
-5. Créer un décorateur @HostBinding
-6. Détection du changement
-7. Zone.js et ses avantages
-8. Simplifier le code grâce à @HostBinding
-9. Atteindre des propriétés imbriquées (via lodash)
-10. Exemple : la ColorSwitcherDirective
-11. Refactoring : cacher la Zone dans le Framework
+5. Permettre de recevoir l'événement ou ses détails
+6. Créer un décorateur @HostBinding (au chargement)
+7. Capter un changement d'une propriété grâce au Proxy + Problème de perfs (il intervient à chaque fois)
+9. Créer un registre de tous les bindings qui existent
+10. Détection du changement et "Digest" + Obligation d'appeler en fin de traitement !
+11. Zone.js et ses avantages
+12. Simplifier le code grâce à @HostBinding
+13. Atteindre des propriétés imbriquées (via lodash)
+14. Exemple : la ColorSwitcherDirective
+15. Refactoring : cacher la Zone dans le Framework
 
 # LA NOTION DE COMPOSANTS
 
 0. La UserProfileDirective
-1. Créer un décorateur spécifique @Component
-2. Interpolation : afficher des variables
-3. EventBinding : écouter les événements du DOM
-4. Détection du changement dans le Composant
+1. Rendu dynamique avec événements
+2. Créer un décorateur spécifique @Component
+3. Interpolation : afficher des variables
+4. EventBinding : écouter les événements du DOM
+5. Détection du changement dans le Composant
+6. Exemple avec un CounterComponent
 
 # CONCLUSION ET REMERCIEMENTS
 
