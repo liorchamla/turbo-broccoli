@@ -11,7 +11,7 @@
 
 # EMBRAYON DE NOTRE FRAMEWORK
 
-0. Mise en place du projet
+0. Mise en place du projet (mobile, fixe, fax)
 1. Installation de TypeScript 
 2. Installation de Vite
 3. La notion de Directive (théorie)
