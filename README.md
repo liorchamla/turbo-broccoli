@@ -19,20 +19,21 @@
 5. Le sélecteur CSS d'attribut
 6. Une deuxième Directive (CreditCardDirective)
 7. Entracte théorique : les outils, et le framework
-8. Embarquer le sélecteur dans la Directive
-9. Récupérer des strings dans les attributs
-10. La notion de service
-11. Centraliser la logique dans un service
-12. Le problème des instances (dans le handler + dans le constructor)
-13. Instancier dans le Framework (injection de dépendance)
-14. Le problème de l'injection "débile"
-15. Exemple avec le service CardVerifier
-16. Analyser les constructeurs pour rendre le framework plus intelligent
-17. Le problème avec l'instanciation dès le départ
-18. Providers : construire un service à la demande
-19. Réutiliser un service déjà construit
-20. Refactoring du Framework
-21. Entracte et résumé
+8. Refactoring avec Modules JS
+9. Embarquer le sélecteur dans la Directive
+10. Récupérer des strings dans les attributs
+11. La notion de service
+12. Centraliser la logique dans un service
+13. Le problème des instances (dans le handler + dans le constructor)
+14. Instancier dans le Framework (injection de dépendance)
+15. Le problème de l'injection "débile"
+16. Exemple avec le service CardVerifier
+17. Analyser les constructeurs pour rendre le framework plus intelligent
+18. Le problème avec l'instanciation dès le départ
+19. Providers : construire un service à la demande
+20. Réutiliser un service déjà construit
+21. Refactoring du Framework
+22. Entracte et résumé
 
 # TYPESCRIPT, DX ET DECLARATIF
 
