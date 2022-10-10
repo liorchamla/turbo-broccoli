@@ -456,6 +456,16 @@
 11. Conclusion et Quizz
 
 # PROJET CRM - INTRODUCTION
+1. Ce que nous allons construire
+2. Ce que nous devons faire pour y arriver
+3. La structure du projet
+4. Xano pour un backend rapide
+5. Insomnia pour tester le backend
+
+# PROJET CRM - DANS LA PEAU DES DEVS BACKEND
+1. Créer le workspace Xano avec les tables user / invoice / detail
+2. Inscription, authentification et récupération des données (/me)
+3. Les factures (description, status, et users)
 
 # PROJET CRM - AUTHENTICATION
 
