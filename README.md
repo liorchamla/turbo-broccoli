@@ -464,10 +464,50 @@
 
 # PROJET CRM - DANS LA PEAU DES DEVS BACKEND
 1. Créer le workspace Xano avec les tables user / invoice / detail
-2. Inscription, authentification et récupération des données (/me)
-3. Les factures (description, status, et users)
+2. API Inscription
+3. API Login
+4. API /me
+5. Les factures (description, status, et users)
+6. API Créer une facture
+7. API Modifier une facture (pré-conditions invoice null et invoice appartenant à l'user)
+8. API Supprimer une facrture (pré-conditions invoice null et invoice appartenant à l'user)
+9. Les détails de facture (description, montant, quantity, total et factures)
+10. API Créer une facture avec details (ajout du JSON array, foreach avec création du total / ajout des infos dans les addons de la facture)
+11. API Modifier une facture (ajout du JSON array, suppression des details précédents (avec GET puis foreach delete), foreach avec total / ajout des infos dans les addons)
+12. API Supprimer une facture (avec suppression des détails)
+13. API Récupérer la liste des factures (avec filtres et addons)
+14. API Récupérer une facture (avec précondition et addons)
+
+# PROJET CRM - MISE EN PAGE
+1. Mise en place du projet
+2. Création des modules (global, auth et invoice) et composants
+3. Routing (sans lazy loading)
+4. Installer Bootswatch, Bootstrap et mettre à jour le angular.json pour importer le JS de bootstrap
+5. Créer la barre de navigation (et importer le AppRoutingModule dans globalModule)
+6. Créer le footer
 
 # PROJET CRM - AUTHENTICATION
+1. Mise en page du RegisterComponent (y compris les messages d'erreur)
+2. Création du formGroup et liaison HTML (+ validators dont validateurs mot de passe (minLength(8) et pattern(/d/))
+3. AuthService et liaison avec l'API
+4. Gestion des erreurs serveur sur le formulaire
+5. Routing vers les invoices
+6. Tests unitaires (validate inputs, redirect to /invoices, no call to router, error message from serveur)
+7. Mise en place du LoginComponent par copie partielle du RegisterComponent
+8. Tests unitaires par copie du RegisterComponent
+9. Stocker le token d'authentification : TokenManager et LocalStorage
+10. Abstraction : le Storage et le jeton d'injection
+11. isAuthenticated() et NavBar
+12. Directive structurelle *authenticated="true|false"
+13. Tests unitaires de la directive AuthenticatedDirective
+14. Déconnexion sur la NavBar avec routing vers login
+15. Problème de temps réel : utiliser les observables pour rendre le tout réactif (token$ dans TokenManager, authStatus$ dans AuthService)
+16. Tests de la NavBar
+17. Tests unitaires du AuthService
+18. Mables Testing pour le authStatus$ et le authToken$ (hardcore, scheduler, cold etc)
+19. Tests unitaires du TokenManager avec un Mock storage
+
+# PROJET CRM - INVOICES
 
 # PROJET CRM - DEPLOIEMENT
 
