@@ -516,6 +516,10 @@
 6. InvoiceService et liaison avec l'API
 7. Tester le formulaire globalement
 8. Tester le InvoiceService
+9. Mise en page du InvoiceListComponent sans appel HTTP
+10. Liaison à l'API et récupération dans le template
+11. Détails de mise en page (pipes, traduction et couleur des tags)
+12. Suppression d'une facture
 
 # PROJET CRM - DEPLOIEMENT
 
