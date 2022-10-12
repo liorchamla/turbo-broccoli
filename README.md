@@ -520,6 +520,26 @@
 10. Liaison à l'API et récupération dans le template
 11. Détails de mise en page (pipes, traduction et couleur des tags)
 12. Suppression d'une facture
+13. Tests unitaires du InvoiceService
+14. Tests unitaires du InvoiceListComponent
+
+# PROJET CRM - EDITION INVOICE
+1. Introduction à la réutilisation
+2. Créer le composant InvoiceFormComponent 
+3. Déplacer les composants qui touchent au Form
+4. Refactoriser les composants et remettre en place le InvoiceCreateComponent
+5. Mettre en place le InvoiceEditionComponent 
+6. Modifier les tests unitaires du InvoiceCreationComponent
+7. Récupérer l'invoice correspondante via l'API 
+8. Appliquer l'invoice récupérée au formulaire et aux détails
+9. Appeler l'API pour modifier la facture lors du submit
+10. Tester le composant d'édition // TOOOODOOOO
+
+# PROJET CRM - REFACTORING ET FINITIONS
+Intercepteurs / Toasts / Guards 
+
+# PROJET CRM - LAZY LOADING ROUTER
+
 
 # PROJET CRM - DEPLOIEMENT
 
