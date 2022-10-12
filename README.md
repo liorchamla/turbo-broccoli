@@ -508,6 +508,14 @@
 19. Tests unitaires du TokenManager avec un Mock storage
 
 # PROJET CRM - INVOICES
+1. Mise en page du InvoiceCreateComponent avec mise en garde sur complexité et découpage
+2. Création du FormGroup avec FormArray et valeurs par défaut
+3. Création du InvoiceCreationGeneralComponent
+4. Création du InvoiceCreationDetailsComponent
+5. Création du InvoiceCreationTotalsComponent
+6. InvoiceService et liaison avec l'API
+7. Tester le formulaire globalement
+8. Tester le InvoiceService
 
 # PROJET CRM - DEPLOIEMENT
 
