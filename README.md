@@ -421,6 +421,14 @@
 4. Le problème de l'URL racine et comment le résoudre grâce aux UrlSegments
 5. Aperçu des gains en performance
 
+# ROUTING AVANCE - RESOLVERS
+1. Exemple de Resolver
+2. Utilisation du Resolver dans un composant
+
+# ROUTING AVANCE - GUARDS
+1. Exemple de CanActivate
+2. Example de CanDeactivate
+
 # REQUETES HTTP - DEMONSTRATION
 
 0. L'API MovieDB - Inscription et APIKey
@@ -454,6 +462,10 @@
 9. La notion de souscription (en regardant le scroll dans movies puis dans movie avec un _tap_)
 10. Le cycle de vie NgOnDestroy
 11. Conclusion et Quizz
+
+# LES OBSERAVBLES RXJS - APPLICATION
+1. Créer un composant FlashComponent (avec flashType, flashHtml et display)
+2. Créer un service FlashService 
 
 # PROJET CRM - INTRODUCTION
 1. Ce que nous allons construire
@@ -533,12 +545,27 @@
 7. Récupérer l'invoice correspondante via l'API 
 8. Appliquer l'invoice récupérée au formulaire et aux détails
 9. Appeler l'API pour modifier la facture lors du submit
-10. Tester le composant d'édition // TOOOODOOOO
+10. Tester le composant d'édition
 
-# PROJET CRM - REFACTORING ET FINITIONS
-Intercepteurs / Toasts / Guards 
+# PROJET CRM - RESOLVERS ET CHARGEMENT
+1. Créer un Resolver pour l'édition de la facture (ou null si on ne la trouve pas)
+2. Modifier la façon dont InvoiceEditionComponent récupère la facture (plus d'error mais un pipe qui gère l'erreur)
+3. Réparer les tests unitaires pour l'InvoiceEditionComponent
+4. Créer un Resolver pour la liste des factures
+5. Réparer les tests unitaires pour l'InvoiceListComponent
+6. Loaders : installer ngx-loading-bar
+7. Customiser afin d'avoir l'apparence voulue
 
-# PROJET CRM - LAZY LOADING ROUTER
+# PROJET CRM - SYSTEME DE FLASH / TOASTS
+1. Installer ngx-toastr
+2. Mettre en place les Toasts dans les divers composants
+3. Tester les appels au Toastr
+
+# PROJET CRM - GUARDS ET LAZY ROUTING
+1. Mettre en place un AuthGuard avec CanActivate
+2. Mettre en place un InvoiceFormGuard avec CanDeactivate
+3. Récupérer le routing dans chaque module
+4. Mettre en place le routing principal
 
 
 # PROJET CRM - DEPLOIEMENT
